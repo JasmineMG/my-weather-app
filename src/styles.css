@@ -35,24 +35,15 @@ i {
 .row {
   row-gap: 4em;
 }
-.search {
-  position: relative;
-  display: grid;
-  box-shadow: 0.15px 0.15px 0.15px 0.15px;
-  margin: 0 auto;
-  font-size: 18px;
-  padding-top: 5em;
-  cursor: pointer;
-  text-align: center;
-}
-.searchTerm {
-  padding-left: 0px;
-  margin-right: 0px;
-}
-.searchButton {
-  width: 100%;
-  border-left-width: 0px;
-}
 .weather-description {
   text-transform: capitalize;
+}
+.search {
+  margin: 0 auto;
+  width: 10%;
+  position: relative;
+  padding-top: 5em;
+}
+.temps {
+  font-size: 30px;
 }
