@@ -38,7 +38,7 @@ function giveDay() {
     minutes = `0${minutes}`;
   }
 
-  let today = document.querySelector("h1");
+  let today = document.querySelector("h3");
   today.innerHTML = `${currentDay} ${hours}:${minutes}hrs`;
 }
 giveDay();

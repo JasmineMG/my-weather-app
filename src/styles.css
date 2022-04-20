@@ -7,14 +7,13 @@ video {
   left: 0;
 }
 .location {
-  font-size: 80px;
+  font-size: 75px;
   color: #00204a;
   padding-top: 10px;
-  font-variant: small-caps;
   line-height: normal;
 }
 .day {
-  font-size: 32px;
+  font-size: 36px;
 }
 .temperature {
   font-size: 34px;
@@ -24,7 +23,7 @@ video {
 }
 i {
   color: #fdb44b;
-  font-size: 36px;
+  font-size: 58px;
 }
 .container {
   display: grid;
@@ -35,7 +34,8 @@ i {
 .row {
   row-gap: 4em;
 }
-.weather-description {
+.todays-description {
+  font-size: 22px;
   text-transform: capitalize;
 }
 .search {
@@ -45,8 +45,23 @@ i {
   padding-top: 5em;
 }
 .temps {
-  font-size: 30px;
+  font-size: 32px;
 }
 p {
   position: relative;
+  display: block;
+  margin: 0 auto;
+  color: #ffff;
+  text-align: center;
+  padding-top: 2em;
+  font-weight: 500;
+}
+.website-url {
+  color: #ffff;
+}
+a.github-url {
+  color: #ffff;
+}
+i.fa-solid.fa-cloud-sun {
+  font-size: 62px;
 }
