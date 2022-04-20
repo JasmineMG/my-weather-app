@@ -1,0 +1,58 @@
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.location {
+  font-size: 80px;
+  color: #00204a;
+  padding-top: 10px;
+  font-variant: small-caps;
+  line-height: normal;
+}
+.day {
+  font-size: 32px;
+}
+.temperature {
+  font-size: 34px;
+}
+.weatherDescription {
+  font-size: 20px;
+}
+i {
+  color: #fdb44b;
+  font-size: 36px;
+}
+.container {
+  display: grid;
+  position: relative;
+  text-align: center;
+  color: #00204a;
+}
+.row {
+  row-gap: 4em;
+}
+.search {
+  position: relative;
+  display: grid;
+  box-shadow: 0.15px 0.15px 0.15px 0.15px;
+  margin: 0 auto;
+  font-size: 18px;
+  padding-top: 5em;
+  cursor: pointer;
+  text-align: center;
+}
+.searchTerm {
+  padding-left: 0px;
+  margin-right: 0px;
+}
+.searchButton {
+  width: 100%;
+  border-left-width: 0px;
+}
+.weather-description {
+  text-transform: capitalize;
+}
